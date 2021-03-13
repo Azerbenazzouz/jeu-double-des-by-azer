@@ -1,0 +1,142 @@
+body{
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+/* ===========================one========================= */
+.one{
+    position: relative;
+}
+.one>h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+/* ===========================menu========================= */
+.menu{
+    width: 500px;
+    height: 400px;
+}
+.menu>center>#niveau{
+    color:red;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 125px;
+
+}
+.menu>center>#play{
+    background-color: blueviolet;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border:solid;
+}
+.menu>center>#play:hover{
+    background-color: rgb(160, 99, 218);
+    color:white;
+}
+.menu>center>#play:active{
+    background-color: rgb(63, 11, 112);
+    color:white;
+}
+.menu>center>#niveau{
+    margin-top:100px;
+}
+.info{
+    opacity: 0.6
+}
+.info:hover{
+    opacity: 1
+}
+.info:active{
+    opacity: 0.8
+}
+/* ===========================tow========================= */
+
+/* ===========================info_post========================= */
+.info_post{
+    width: 60%;
+    height: 500px;
+    background-image: url(./img/bginfo.jpg);
+}
+.info_post>.info_title>img{
+    float: right;
+}
+.info_post>.info_title>h1{
+    width: 100px;
+    float: center;
+    padding-top: 2%;
+    color: green;
+    font-size:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.info_contint{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: blue;
+    background-color:rgba(18, 211, 121, 0.548);
+}
+.info_contint{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ===========================game========================= */
+
+/* ===========================game_one========================= */
+.game_one{
+    width: 100%;
+    position:relative;
+    background-color:rgba(255, 81, 0, 0.794);
+}
+.game_one>h1{
+    margin:0px;
+    height: 75px;
+    vertical-align: center;
+    top: 50%;
+    letter-spacing: 2px;
+}
+/* ===========================game_tow========================= */
+
+body > center > div.tow > div.game > div.game_tow > table > tbody > tr > th > img{
+    width: 300px;
+    height: 400px;
+}
+.game_tow{
+    margin-top:5px
+}
+/* ===========================terminer========================= */
+.terminer{
+    width: 300px;
+    height: 400px;
+}
+#replay{
+    background-color: blueviolet;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border:solid;
+}
+#replay:hover{
+    background-color: rgb(160, 99, 218);
+    color:white;
+}
+#replay:active{
+    background-color: rgb(63, 11, 112);
+    color:white;
+}
+#replay2{
+    background-color: blueviolet;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border:solid;
+}
+#replay2:hover{
+    background-color: rgb(160, 99, 218);
+    color:white;
+}
+#replay2:active{
+    background-color: rgb(63, 11, 112);
+    color:white;
+}

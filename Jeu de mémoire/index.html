@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>🧠 Jeu de mémoire 🧠</title>
+
+</head>
+<body>
+    <audio id='gameaudio'src="./audio/game.mp3"></audio>
+    <center>
+    <div class="one">
+        <h1>🧠Mémoiare🧠</h1>
+        <!-- <img id="logo" src="./img/icons8-brain-100.png" alt="logo" srcset=""> -->
+    </div>
+    <!-- ------------------------------------------------------------------- -->
+    <div class="tow">
+        
+        <!-- ------------------------------------------------------------------------------------ -->
+        <div id='info_post' class="info_post">
+            <div class="info_title">
+                <img id="close" class="info" src="./img/icons8-close-window-150.png" alt="info" srcset="">
+                <h1>Info</h1>
+            </div>
+            <div class="info_contint">
+                <h1>1.text</h1>
+                <h1>2.text</h1>
+                <h1>3.text</h1>
+                <h1>By Azer Ben Azzouz</h1>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------------ -->
+        <div id='game' class="game" >
+            <div class="game_one">
+                <h1 id="niveau">Niveau <span id='lvl'>1</span></h1>
+                <h1 id='game_info'><span><img src="./img/icons8-scoreboard-64.png"></span>score : <span id='score'>2</span><span><img src="./img/icons8-timer-64.png"></span>time : <span id='time'>0</span>s</h1>
+
+            </div>
+            <div class="game_tow">
+                <table>
+                    <tr>
+                        <th><img id="1"  src="./img/card-back.jpg" alt="img memory" srcset=""></th>
+                        <th><img id="2" src="./img/card-back.jpg" alt="img memory" srcset=""></th>
+                    </tr>
+                    <tr>
+                        <th><img id="3" src="./img/card-back.jpg" alt="img memory" srcset=""></th>
+                        <th><img id="4" src="./img/card-back.jpg" alt="img memory" srcset=""></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- menu------------------------------------------------------------------------------------- -->
+        
+            <div id='menu' class="menu">
+                <center>
+                    <h1 id="niveau">Niveau <span id='lvl'>1</span></h1>
+                    <button id='play'>P L A Y</button>
+                </center>
+                </div>
+                <img id="i" class="info" src="./img/icons8-info-100.png" alt="info" srcset="">
+                <img id="sound" class="info" src="./img/icons8-audio-100.png" alt="sound" srcset="">
+            </div>
+        <!-- terminer------------------------------------------------------------------------------------- -->
+            <div id="terminer" class="terminer">
+                <center>
+                   <h1>Jeu terminé</h1> 
+                   <h1>Votre score est <span id="score">1</span>/<span id='lvl'>1</span></h1>
+                    <button id='replay'>Replay</button>
+                </center>
+            </div>
+        <!-- time over------------------------------------------------------------------------------------- -->
+            <div id="time_over">
+                Time Over Sorry
+                Try Again
+                <button id='replay2'>Replay</button>
+            </div>
+        </center>
+        <script src="js.js"></script>
+</body>
+</html>
